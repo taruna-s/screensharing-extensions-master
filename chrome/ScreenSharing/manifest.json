@@ -13,13 +13,13 @@
     ,
   "externally_connectable": {
     "matches": [
-      "https://localhost:4443/*"
+      "https://*.change-this-to-your-domain.com/*"
     ]
   },
     "content_scripts": [ {
    "js": [ "content-script.js" ],
    "all_frames": true,
-   "matches": ["https://localhost:4443/*"]
+   "matches": ["https://*.change-this-to-your-domain.com/*"]
   }],
   "icons": {
     "16": "logo16.png",
